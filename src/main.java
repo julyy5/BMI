@@ -4,6 +4,6 @@ public class main {
         int weight = 75;
         int height = 180;
         int bmi = service.calculate(weight, height);
-        System.out.println(bmi);
+        System.out.println(" Индекс массы тела " + bmi);
     }
 }
